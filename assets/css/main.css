@@ -106,7 +106,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 96px;
   margin-right: 8px;
 }
 
@@ -891,7 +891,7 @@ section,
 
 .hero {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   position: relative;
   padding: 180px 0 40px 0;
   display: flex;
@@ -911,7 +911,7 @@ section,
 
 .hero .hero-bg::before {
   content: "";
-  background: color-mix(in srgb, var(--hero-color), transparent 15%);
+  background: color-mix(in srgb, var(--hero-color), transparent 50%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1159,6 +1159,7 @@ section,
 .clients .client-logo img {
   padding: 20px 40px;
   max-width: 90%;
+
   transition: 0.3s;
   opacity: 0.5;
   filter: grayscale(100);
