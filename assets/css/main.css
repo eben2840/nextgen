@@ -127,14 +127,38 @@ h6 {
   }
 }
 
+.card-img-top{
+  width:100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.text-body-secondary h6{
+  border: solid 1px #ccc;
+  text-align: center;
+  justify-content: center;
+  margin:auto;
+  width:100%;
+  padding:10px;
+  background-color: red;
+  border-radius:10px;
+  color:#fff;
+}
+
+.card-body{
+  padding:20px;
+  box-shadow:0px 4px 5px 0px rgba(0,0,0,0.2);
+  height: 250px;
+
+}
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
   background: var(--accent-color);
-  font-size: 14px;
-  padding: 10px 25px;
+  font-size: 18px;
+  padding: 13px 25px;
   margin: 0 0 0 30px;
-  border-radius: 20px;
+  border-radius: 10px;
   transition: 0.3s;
 }
 
